@@ -1,11 +1,17 @@
+body{
+    background-image: url("tour2.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:inherit;
+}
 .page-header {
-    background-color: #ff9400;
+    background-color: transparent;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 20px 20px 20px 80px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: red;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -42,8 +48,10 @@ h1, h2, h3, h4 {
 }
 
 .post h1 a, .post h1 a:visited {
-    color: #000000;
+    color: darkblue;
 }
 .post p{
-    color: forestgreen;
+    color: black;
+    font-family: "B Nazanin";
+    font-size: 20px;
 }
